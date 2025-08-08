@@ -41,7 +41,7 @@ public class WebFlowConfig extends AbstractFlowConfiguration {
   public FlowDefinitionRegistry flowRegistry() {
     return getFlowDefinitionRegistryBuilder(flowBuilderServices())
 //        .addFlowLocation("/WEB-INF/flows/signup-flow.xml", "signupFlow")
-        .addFlowLocation("/WEB-INF/register/signup-flow.xml", "signupFlow")
+        .addFlowLocation("/WEB-INF/flows/register/signup-flow.xml", "signupFlow")
         .build();
   }
 
